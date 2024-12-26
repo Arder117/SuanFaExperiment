@@ -56,7 +56,16 @@
 						38,
 						39,
 						40,
-						41
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50
 					]
 				}
 			],
@@ -112,7 +121,16 @@
 						38,
 						39,
 						40,
-						41
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50
 					]
 				}
 			],
@@ -410,6 +428,69 @@
 					"id" : "6.5::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-6.5-Debug-3a3e1e8a76fdae4b28e5.json",
 					"name" : "6.5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7.1-Debug-0d8acb5b6511e7394e3e.json",
+					"name" : "7.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7.2-Debug-62662da97bb77ed3e185.json",
+					"name" : "7.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7.3-Debug-b713466f491061b3e30e.json",
+					"name" : "7.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7.4-Debug-9eeb63538e30b26f5868.json",
+					"name" : "7.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7.5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7.5-Debug-7629f33142427818e3db.json",
+					"name" : "7.5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7.6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7.6-Debug-45e7ff2a785f1bd4525c.json",
+					"name" : "7.6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7.7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7.7-Debug-edefa65c409bea8b7347.json",
+					"name" : "7.7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7.8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7.8-Debug-b6b76882e1e94aff2634.json",
+					"name" : "7.8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7.9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7.9-Debug-2c7936f5da3c209a5760.json",
+					"name" : "7.9",
 					"projectIndex" : 0
 				}
 			]

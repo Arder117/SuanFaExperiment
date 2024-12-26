@@ -15,7 +15,7 @@ int main() {
     //输入
     int n;
     cin >> n;
-    vector<vector<int> > triangle(n, vector<int>(n));
+    vector triangle(n, vector<int>(n));
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j <= i; ++j) {
             cin >> triangle[i][j];
@@ -23,7 +23,7 @@ int main() {
     }
 
     //动态规划
-    vector<vector<int> > dp(n, vector<int>(n));
+    vector dp(n, vector<int>(n));
     dp[0][0] = triangle[0][0];
     for (int i = 1; i < n; ++i) {
         dp[i][0] = dp[i - 1][0] + triangle[i][0];

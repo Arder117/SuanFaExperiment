@@ -16,19 +16,18 @@ void creattree(bitree &T, char *hou, char *zhong, int len) {
         T = NULL;
         return;
     }
-    T = (bitree) malloc(sizeof(bitnode));
+    T = static_cast<bitree>(malloc(sizeof(bitnode)));
     T->data = hou[len - 1];
-    char *p1, *p2, p[2];
+    char p[2];
     p[0] = hou[len - 1];
     p[1] = '\0';
-    p1 = strtok(zhong, p);
-    p2 = strtok(NULL, p);
+    char *p1 = strtok(zhong, p);
+    char *p2 = strtok(NULL, p);
     int ln;
     if (p1 != NULL) ln = strlen(p1);
     else ln = 0;
-    char *q1, *q2;
-    q1 = (char *) malloc(sizeof(char) * (ln + 1));
-    q2 = (char *) malloc(sizeof(char) * (len - ln));
+    const auto q1 = static_cast<char *>(malloc(sizeof(char) * (ln + 1)));
+    const auto q2 = static_cast<char *>(malloc(sizeof(char) * (len - ln)));
     int i;
     for (i = 0; i < ln; i++)
         q1[i] = hou[i];

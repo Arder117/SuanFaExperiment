@@ -12,21 +12,19 @@
 using namespace std;
 
 void sort(char a[], int left, int right) {
-    int i, j, t;
-    char temp;
     if (left > right) {
         return;
     }
-    temp = a[left];
-    i = left;
-    j = right;
+    char temp = a[left];
+    int i = left;
+    int j = right;
     while (i != j) {
         while (a[j] >= temp && i < j)
             j--;
         while (a[i] <= temp && i < j)
             i++;
         if (i < j) {
-            t = a[i];
+            int t = a[i];
             a[i] = a[j];
             a[j] = t;
         }
